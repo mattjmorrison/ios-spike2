@@ -22,6 +22,8 @@
 		AF19716818427CEB00B630FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF19714718427CEB00B630FF /* UIKit.framework */; };
 		AF19717018427CEB00B630FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF19716E18427CEB00B630FF /* InfoPlist.strings */; };
 		AF19717218427CEB00B630FF /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF19717118427CEB00B630FF /* testTests.m */; };
+		AF19717D184282FD00B630FF /* MyTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF19717C184282FD00B630FF /* MyTableViewViewController.m */; };
+		AF1971891842BBE500B630FF /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1971881842BBE500B630FF /* PickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		AF19716D18427CEB00B630FF /* testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testTests-Info.plist"; sourceTree = "<group>"; };
 		AF19716F18427CEB00B630FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF19717118427CEB00B630FF /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		AF19717B184282FD00B630FF /* MyTableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewViewController.h; sourceTree = "<group>"; };
+		AF19717C184282FD00B630FF /* MyTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewViewController.m; sourceTree = "<group>"; };
+		AF1971871842BBE500B630FF /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		AF1971881842BBE500B630FF /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,8 @@
 		AF19713718427CEB00B630FF = {
 			isa = PBXGroup;
 			children = (
+				AF1971871842BBE500B630FF /* PickerViewController.h */,
+				AF1971881842BBE500B630FF /* PickerViewController.m */,
 				AF19714918427CEB00B630FF /* test */,
 				AF19716B18427CEB00B630FF /* testTests */,
 				AF19714218427CEB00B630FF /* Frameworks */,
@@ -117,6 +125,8 @@
 				AF19715218427CEB00B630FF /* AppDelegate.h */,
 				AF19715318427CEB00B630FF /* AppDelegate.m */,
 				AF19715518427CEB00B630FF /* Main_iPhone.storyboard */,
+				AF19717B184282FD00B630FF /* MyTableViewViewController.h */,
+				AF19717C184282FD00B630FF /* MyTableViewViewController.m */,
 				AF19715818427CEB00B630FF /* Main_iPad.storyboard */,
 				AF19715B18427CEB00B630FF /* ViewController.h */,
 				AF19715C18427CEB00B630FF /* ViewController.m */,
@@ -255,6 +265,8 @@
 			files = (
 				AF19715D18427CEB00B630FF /* ViewController.m in Sources */,
 				AF19715418427CEB00B630FF /* AppDelegate.m in Sources */,
+				AF1971891842BBE500B630FF /* PickerViewController.m in Sources */,
+				AF19717D184282FD00B630FF /* MyTableViewViewController.m in Sources */,
 				AF19715018427CEB00B630FF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +486,7 @@
 				AF19717718427CEB00B630FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF19717818427CEB00B630FF /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +495,7 @@
 				AF19717A18427CEB00B630FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
